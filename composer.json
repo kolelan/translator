@@ -1,0 +1,14 @@
+{
+    "name": "gstepenko/translator",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Translator\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "app": "php bin/app.php --ansi"
+    }
+
+}

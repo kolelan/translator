@@ -1,0 +1,15 @@
+services:
+    api-php-cli:
+        build:
+            context: docker
+        environment:
+            APP_ENV: dev
+            APP_DEBUG: 1
+        volumes:
+            - ./:/app
+        secrets:
+            - backup_secret_access_key
+
+secrets:
+    backup_secret_access_key:
+        file: ./secrets/backup_secret_access_key
