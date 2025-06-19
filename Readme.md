@@ -24,8 +24,12 @@ CREATE TABLE translations (
 make iam
 ```
 
-Без **YANDEX_FOLDER_ID** тоже ничего работать не будет, как его получить: Переходим в Яндекс консоль и копируем его оттуда
+Без **YANDEX_FOLDER_ID** тоже ничего работать не будет, как его получить:
+https://yandex.cloud/ru/docs/resource-manager/operations/folder/get-id#cli_1  
+Переходим в Яндекс консоль и копируем его оттуда
 ![YANDEX_FOLDER_ID.png](YANDEX_FOLDER_ID.png)
 
 Для работы сервиса так же необходимо назначить пользователю роль **ai.translate.user**
-Иначе будет ошибка **Permission denied**
+Иначе будет ошибка **Permission denied**  
+
+![AI_TRANSLATE_USER.png](AI_TRANSLATE_USER.png)
