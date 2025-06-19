@@ -1,5 +1,5 @@
 {
-    "name": "gstepenko/translator",
+    "name": "kaponir/translator",
     "type": "project",
     "autoload": {
         "psr-4": {
@@ -8,7 +8,8 @@
     },
     "require": {},
     "scripts": {
-        "app": "php bin/app.php --ansi"
+        "app": "php bin/app.php --ansi",
+        "iam": "php bin/iam.php --ansi"
     }
 
 }

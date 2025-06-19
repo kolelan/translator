@@ -13,3 +13,6 @@ build:
 # Composer section
 app:
 	docker compose run --rm api-php-cli composer app
+
+iam:
+	docker compose run --rm api-php-cli composer iam
